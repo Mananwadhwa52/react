@@ -7,7 +7,6 @@
 },
   "author": "",
   "license": "ISC",
-  "main": "app.js",
   "description": "",
   "devDependencies": {
     "parcel": "^2.14.4"
