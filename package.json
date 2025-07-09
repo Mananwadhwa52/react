@@ -10,17 +10,18 @@
   "license": "ISC",
   "description": "An intelligent AI agent with multiple capabilities",
   "devDependencies": {
-    "parcel": "^2.14.4",
+    "@tailwindcss/postcss": "^4.1.11",
     "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0"
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.21",
+    "parcel": "^2.14.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
     "axios": "^1.6.0",
     "lucide-react": "^0.400.0",
-    "tailwindcss": "^3.4.0",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }

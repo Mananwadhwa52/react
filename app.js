@@ -1,8 +1,9 @@
 // COMPONET NAME SHOULD BE IN UPPERCASE
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import Chat from './components/Chat.jsx';
-import './styles.css';
+import './styles.pcss';
+
 
 const App = () => {
   return (
@@ -12,6 +13,5 @@ const App = () => {
   );
 };
 
-const root = document.getElementById("root");
-const domRoot = createRoot(root);
-domRoot.render(<App />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
